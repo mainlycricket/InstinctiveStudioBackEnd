@@ -1,0 +1,69 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+model User {
+  id                 Int       @id @default(autoincrement())
+  name               String
+  email              String    @unique
+  password           String
+  role               Role      @default(student)
+  createdAt          DateTime  @default(now())
+  isVerified         Boolean   @default(true)
+  isActive           Boolean   @default(true)
+  lastLoginTimestamp DateTime?
+  Student            Student?
+}
+
+model AcademicYear {
+  id   Int    @id @default(autoincrement())
+  name String @unique
+
+  Student Student[]
+}
+
+model Class {
+  id   Int    @id @default(autoincrement())
+  name String @unique
+
+  Student Student[]
+}
+
+model Course {
+  id            Int             @id @default(autoincrement())
+  name          String
+  image         String?
+  StudentCourse StudentCourse[]
+}
+
+model Student {
+  UserId         Int             @unique
+  ClassId        Int
+  AcademicYearId Int
+  User           User            @relation(fields: [UserId], references: [id])
+  Class          Class           @relation(fields: [ClassId], references: [id])
+  AcademicYear   AcademicYear    @relation(fields: [AcademicYearId], references: [id])
+  StudentCourse  StudentCourse[]
+}
+
+model StudentCourse {
+  id         Int      @id @default(autoincrement())
+  studentId  Int
+  courseId   Int
+  enrolledAt DateTime @default(now())
+  student    Student  @relation(fields: [studentId], references: [UserId])
+  course     Course   @relation(fields: [courseId], references: [id])
+
+  @@unique([studentId, courseId]) // Prevent duplicate enrollments
+}
+
+enum Role {
+  admin
+  student
+}

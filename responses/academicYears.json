@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "message": "academic years fetched",
+  "academicYears": [
+    {
+      "id": 2,
+      "name": "2024-25"
+    }
+  ]
+}

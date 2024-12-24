@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "message": "classes fetched",
+  "classes": [
+    {
+      "id": 2,
+      "name": "CBSE 9"
+    }
+  ]
+}

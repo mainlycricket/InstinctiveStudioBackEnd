@@ -1,0 +1,351 @@
+{
+  "success": true,
+  "message": "students fetched",
+  "students": [
+    {
+      "name": "Student 1",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 2",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 3",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 4",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 5",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 6",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 7",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 8",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 9",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 10",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 11",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 12",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 13",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 14",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    },
+    {
+      "name": "Student 15",
+      "lastLoginDate": "2024-12-23T13:33:31.947Z",
+      "isActive": true,
+      "academicYear": {
+        "id": 2,
+        "name": "2024-25"
+      },
+      "class": {
+        "id": 2,
+        "name": "CBSE 9"
+      },
+      "courses": [
+        {
+          "id": 3,
+          "name": "CBSE Science"
+        },
+        {
+          "id": 4,
+          "name": "CBSE Maths"
+        }
+      ]
+    }
+  ]
+}
