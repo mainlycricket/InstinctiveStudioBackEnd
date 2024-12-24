@@ -73,10 +73,10 @@ async function main() {
   console.log('Seed data created successfully!');
 }
 
-main()
-  .then(() => {
-    console.log('data seeded successfully!');
-  })
-  .catch((err) => {
-    console.log('data seeding failed, ', err);
-  });
+// main()
+//   .then(() => {
+//     console.log('data seeded successfully!');
+//   })
+//   .catch((err) => {
+//     console.log('data seeding failed, ', err);
+//   });
